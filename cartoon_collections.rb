@@ -1,5 +1,5 @@
-def roll_call_dwarves(arr)
-arr.each {|x, i| p "#{i}. #{x}"}
+def roll_call_dwarves (arr)
+arr.map.with_index {|x, i| p "#{i+1}. #{x}"}
 end
 
 def summon_captain_planet(arr)
