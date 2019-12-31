@@ -12,5 +12,5 @@ end
 
 def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  arr.any? (cheese_types)
+  (arr & cheese_types).any?
 end
